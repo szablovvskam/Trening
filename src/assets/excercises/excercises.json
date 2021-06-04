@@ -1,29 +1,29 @@
 {
    "excercises": [
         {
+            "nazwa": "Deadlift",
+            "img": "./assets/excercises/photos/deadlift.jpg",
+            "opis": "Ćwiczenie polegające na podnoszeniu z podłoża ciężaru (najczęściej sztangi obciążonej dodatkowo talerzami) do momentu, w którym wykonujący ćwiczenie ma proste plecy oraz nogi w kolanach."
+        },
+        {
+            "nazwa": "Power clean",
+            "img": "./assets/excercises/photos/powerclean.jpg",
+            "opis": "Ćwiczenie polegające na zarzuceniu sztangi z ziemi na barki, nie schodząc biodrami poniżej linii kolan w momencie „łapania” sztangi."
+        },
+        {
             "nazwa": "Push press",
-            "img": "./assets/excercises/photos/launch.png",
-            "opis": "Launch Chrome against localhost"
+            "img": "./assets/excercises/photos/pushpress.jpg",
+            "opis": "Ruch zaczyna się od „pchnięcia” nóg. To rozpoczyna pęd ruchu, następnie ciężar jest powoli opuszczany z powrotem na klatkę piersiową [1] lub zrzucany z góry. Można go również stosować zza szyi."
         },
         {
-            "nazwa": "Dead lift",
-            "img": "./assets/excercises/photos/launch.png",
-            "opis": "Launch Chrome against localhost"
+            "nazwa": "Power snatch",
+            "img": "./assets/excercises/photos/snatch.jpg",
+            "opis": "Jedna z wariancji ćwiczeń z dwuboju ciężarowego, polegające na przeniesieniu w jednym płynnym ruchu sztangi z ziemi nad głowę, bez mijania biodrami linii kolan w jakimkolwiek momencie po „złapaniu” sztangi."
         },
         {
-            "nazwa": "Kitek press",
-            "img": "./assets/excercises/photos/launch.png",
-            "opis": "Launch Chrome against localhost"
-        },
-        {
-            "nazwa": "pwa-chrome",
-            "img": "./assets/excercises/photos/launch.png",
-            "opis": "Launch Chrome against localhost"
-        },
-        {
-            "nazwa": "pwa-chrome",
-            "img": "./assets/excercises/photos/launch.png",
-            "opis": "Launch Chrome against localhost"
+            "nazwa": "TGU",
+            "img": "./assets/excercises/photos/tgu1.jpg",
+            "opis": "Wykonanie ćwiczenia wymaga skoordynowanej pracy mięśni całego ciała, przy czym najbardziej zaangażowane są mięśnie brzucha (zarówno proste jak i skosy), mięśnie nóg, mięśnie piersiowe oraz tricepsy."
         }
     ]
 }

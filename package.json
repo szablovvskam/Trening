@@ -30,6 +30,12 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "-plugin-device": "2.0.2",
+    "-plugin-ionic-keyboard": "^2.0.5",
+    "-plugin-ionic-webview": "^4.0.0",
+    "-plugin-splashscreen": "5.0.2",
+    "-plugin-statusbar": "2.4.2",
+    "-plugin-whitelist": "1.3.3",
     "@angular-devkit/build-angular": "~12.0.1",
     "@angular-eslint/builder": "~12.0.0",
     "@angular-eslint/eslint-plugin": "~12.0.0",
@@ -51,6 +57,7 @@
     "cordova-plugin-ionic-webview": "^4.2.1",
     "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-plugin-webview": "0.0.1",
     "cordova-plugin-whitelist": "^1.3.3",
     "eslint": "^7.6.0",
     "eslint-plugin-import": "2.22.1",
@@ -76,7 +83,14 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "-plugin-whitelist": {},
+      "-plugin-statusbar": {},
+      "-plugin-device": {},
+      "-plugin-splashscreen": {},
+      "-plugin-ionic-webview": {},
+      "-plugin-ionic-keyboard": {},
+      "WebViewer": {}
     },
     "platforms": [
       "browser"

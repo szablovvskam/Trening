@@ -42,10 +42,10 @@ export class Tab1Page implements OnInit  {
     let mapOptions: GoogleMapOptions = {
       camera: {
          target: {
-           lat: 54.39130005461771,
-           lng: 18.588087894858084
+           lat: 54.39620630892717, 
+           lng: 18.602921932285238
          },
-         zoom: 18,
+         zoom: 12,
          tilt: 30
        }
     };
@@ -53,14 +53,50 @@ export class Tab1Page implements OnInit  {
 
     let marker: Marker = this.map.addMarkerSync({
       title: 'Ionic',
-      icon: 'blue',
+      icon: 'red',
       animation: 'DROP',
       position: {
         lat: 54.39130005461771,
            lng: 18.588087894858084
       }
     });
+    let marker1: Marker = this.map.addMarkerSync({
+      title: 'Ionic',
+      icon: 'blue',
+      animation: 'DROP',
+      position: {
+        lat: 54.36189047445653, 
+           lng: 18.654381463939878
+      }
+    });
+    let marker2: Marker = this.map.addMarkerSync({
+      title: 'Ionic',
+      icon: 'green',
+      animation: 'DROP',
+      position: {
+        lat: 54.42933814652592, 
+           lng: 18.59259258720778
+      }
+    });
+    let marker3: Marker = this.map.addMarkerSync({
+      title: 'Ionic',
+      icon: 'yellow',
+      animation: 'DROP',
+      position: {
+        lat: 54.40289042078417, 
+           lng: 18.598006412930836
+      }
+    });
     marker.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
+      alert('clicked');
+    });
+    marker1.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
+      alert('clicked');
+    });
+    marker2.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
+      alert('clicked');
+    });
+    marker3.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
       alert('clicked');
     });
   }
