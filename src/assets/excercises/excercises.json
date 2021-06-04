@@ -1,0 +1,29 @@
+{
+   "excercises": [
+        {
+            "nazwa": "Push press",
+            "img": "./assets/excercises/photos/launch.png",
+            "opis": "Launch Chrome against localhost"
+        },
+        {
+            "nazwa": "Dead lift",
+            "img": "./assets/excercises/photos/launch.png",
+            "opis": "Launch Chrome against localhost"
+        },
+        {
+            "nazwa": "Kitek press",
+            "img": "./assets/excercises/photos/launch.png",
+            "opis": "Launch Chrome against localhost"
+        },
+        {
+            "nazwa": "pwa-chrome",
+            "img": "./assets/excercises/photos/launch.png",
+            "opis": "Launch Chrome against localhost"
+        },
+        {
+            "nazwa": "pwa-chrome",
+            "img": "./assets/excercises/photos/launch.png",
+            "opis": "Launch Chrome against localhost"
+        }
+    ]
+}

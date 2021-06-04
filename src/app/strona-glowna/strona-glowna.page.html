@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>strona-glowna</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  
+
+ <ion-app>
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Card</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content fullscreen>
+    <div class="container">
+    <ion-card *ngFor="let item of results">
+      <img src={{item.img}} />
+      <ion-card-header>
+        <ion-card-title>{{item.nazwa}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{item.opis}}
+      </ion-card-content>
+      <div class="ion-padding">
+        <ion-button (click)="OpenModal()">Open</ion-button>
+      </div>
+    </ion-card>
+  </div>
+  </ion-content>
+</ion-app> 
+
+<!-- <ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>nazwa</ion-label>
+      <ion-label>img</ion-label>
+      <ion-label>opis</ion-label>
+    </ion-item>
+    <ion-item *ngFor="let item of results">
+      <ion-label>{{item.nazwa}}</ion-label>
+      <ion-label>{{item.img}}</ion-label>
+      <ion-label>{{item.opis}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content> -->
+
