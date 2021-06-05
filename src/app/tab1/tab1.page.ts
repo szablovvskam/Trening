@@ -25,19 +25,13 @@ export class Tab1Page implements OnInit  {
   constructor( private platform: Platform) {}
   
   ngOnInit() {
-    // Since ngOnInit() is executed before `deviceready` event,
-    // you have to wait the event.
+
     this.platform.ready();
     this.loadMap();
   }
 
   loadMap() {
 
-    // This code is necessary for browser
-    // Environment.setEnv({
-    //   'API_KEY_FOR_BROWSER_RELEASE': 'AIzaSyCqq7r1-YV_33ON5BHgJN4ffTGTx-J0bzM',
-    //   'API_KEY_FOR_BROWSER_DEBUG': 'AIzaSyCqq7r1-YV_33ON5BHgJN4ffTGTx-J0bzM'
-    // });
 
     let mapOptions: GoogleMapOptions = {
       camera: {
@@ -52,7 +46,7 @@ export class Tab1Page implements OnInit  {
     this.map = GoogleMaps.create('map_canvas', mapOptions);
 
     let marker: Marker = this.map.addMarkerSync({
-      title: 'Ionic',
+      title: 'CrossCore',
       icon: 'red',
       animation: 'DROP',
       position: {
@@ -61,7 +55,7 @@ export class Tab1Page implements OnInit  {
       }
     });
     let marker1: Marker = this.map.addMarkerSync({
-      title: 'Ionic',
+      title: 'CrossFit Stocznia',
       icon: 'blue',
       animation: 'DROP',
       position: {
@@ -70,7 +64,7 @@ export class Tab1Page implements OnInit  {
       }
     });
     let marker2: Marker = this.map.addMarkerSync({
-      title: 'Ionic',
+      title: 'Marina Welness Center',
       icon: 'green',
       animation: 'DROP',
       position: {
@@ -79,25 +73,13 @@ export class Tab1Page implements OnInit  {
       }
     });
     let marker3: Marker = this.map.addMarkerSync({
-      title: 'Ionic',
+      title: 'CrossBox Atleta',
       icon: 'yellow',
       animation: 'DROP',
       position: {
         lat: 54.40289042078417, 
            lng: 18.598006412930836
       }
-    });
-    marker.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
-      alert('clicked');
-    });
-    marker1.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
-      alert('clicked');
-    });
-    marker2.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
-      alert('clicked');
-    });
-    marker3.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
-      alert('clicked');
     });
   }
 
