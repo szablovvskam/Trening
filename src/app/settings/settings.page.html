@@ -2,7 +2,13 @@
 
 <ion-content>
 <ion-item>
-  <ion-label> Modal </ion-label>
-  <ion-button (click)="CloseModal()" size="small" slot="end">close</ion-button>
+  <ion-label> Szczegółowy opis ćwiczenia </ion-label>
+  <ion-button (click)="CloseModal()" size="small" slot="end">Zamknij</ion-button>
 </ion-item>
+<ion-modal *ngFor="let item of results">
+  <ion-modal-content>
+    {{item.instrukcja}}
+  </ion-modal-content>
+  </ion-modal>
 </ion-content>
+

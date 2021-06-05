@@ -10,8 +10,7 @@ import {SettingsPage} from '../settings/settings.page';
 export class StronaGlownaPage implements OnInit {
   results: any;
 
-  // constructor(private modalController:ModalController) { }
-  constructor() {}
+  constructor(private modalController:ModalController) { }
 
   ngOnInit() {
     fetch('./assets/excercises/excercises.json').then(res => res.json()).then(json => {
@@ -20,11 +19,42 @@ export class StronaGlownaPage implements OnInit {
     });
   }
 
-  // OpenModal()
-  // {
-  //   this.modalController.create({component:SettingsPage}).then((modalElement)=>{
-  //     modalElement.present();
-  //   })
-  // }
+  OpenModal()
+  {
+    this.modalController.create({component:SettingsPage}).then((modalElement)=>{
+      modalElement.present();
+    })
+  }
 
+  // async presentModal() {
+  //   const enterAnimation = (baseEl: any) => {
+  //     const backdropAnimation = this.animationCtrl.create()
+  //       .addElement(baseEl.querySelector('ion-backdrop')!)
+  //       .fromTo('opacity', '0.01', 'var(--backdrop-opacity)');
+
+  //     const wrapperAnimation = this.animationCtrl.create()
+  //       .addElement(baseEl.querySelector('.modal-wrapper')!)
+  //       .keyframes([
+  //         { offset: 0, opacity: '4', transform: 'scale(2)' },
+  //         { offset: 1, opacity: '4', transform: 'scale(3)' }
+  //       ]);
+
+  //     return this.animationCtrl.create()
+  //       .addElement(baseEl)
+  //       .easing('ease-in-out')
+  //       .duration(500)
+  //       .addAnimation([backdropAnimation, wrapperAnimation]);
+  //   }
+
+  //   const leaveAnimation = (baseEl: any) => {
+  //     return enterAnimation(baseEl).direction('reverse');
+  //   }
+
+  //   const modal = await this.modalController.create({
+  //     component: SettingsPage,
+  //     enterAnimation,
+  //     leaveAnimation
+  //   });
+
+  // }
 }

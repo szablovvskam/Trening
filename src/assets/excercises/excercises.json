@@ -3,27 +3,32 @@
         {
             "nazwa": "Deadlift",
             "img": "./assets/excercises/photos/deadlift.jpg",
-            "opis": "Ćwiczenie polegające na podnoszeniu z podłoża ciężaru (najczęściej sztangi obciążonej dodatkowo talerzami) do momentu, w którym wykonujący ćwiczenie ma proste plecy oraz nogi w kolanach."
+            "opis": "Ćwiczenie polegające na podnoszeniu z podłoża ciężaru (najczęściej sztangi obciążonej dodatkowo talerzami) do momentu, w którym wykonujący ćwiczenie ma proste plecy oraz nogi w kolanach.",
+            "instrukcja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
             "nazwa": "Power clean",
             "img": "./assets/excercises/photos/powerclean.jpg",
-            "opis": "Ćwiczenie polegające na zarzuceniu sztangi z ziemi na barki, nie schodząc biodrami poniżej linii kolan w momencie „łapania” sztangi."
+            "opis": "Ćwiczenie polegające na zarzuceniu sztangi z ziemi na barki, nie schodząc biodrami poniżej linii kolan w momencie „łapania” sztangi.",
+            "instrukcja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
             "nazwa": "Push press",
             "img": "./assets/excercises/photos/pushpress.jpg",
-            "opis": "Ruch zaczyna się od „pchnięcia” nóg. To rozpoczyna pęd ruchu, następnie ciężar jest powoli opuszczany z powrotem na klatkę piersiową [1] lub zrzucany z góry. Można go również stosować zza szyi."
+            "opis": "Ruch zaczyna się od „pchnięcia” nóg. To rozpoczyna pęd ruchu, następnie ciężar jest powoli opuszczany z powrotem na klatkę piersiową [1] lub zrzucany z góry. Można go również stosować zza szyi.",
+            "instrukcja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
             "nazwa": "Power snatch",
             "img": "./assets/excercises/photos/snatch.jpg",
-            "opis": "Jedna z wariancji ćwiczeń z dwuboju ciężarowego, polegające na przeniesieniu w jednym płynnym ruchu sztangi z ziemi nad głowę, bez mijania biodrami linii kolan w jakimkolwiek momencie po „złapaniu” sztangi."
+            "opis": "Jedna z wariancji ćwiczeń z dwuboju ciężarowego, polegające na przeniesieniu w jednym płynnym ruchu sztangi z ziemi nad głowę, bez mijania biodrami linii kolan w jakimkolwiek momencie po „złapaniu” sztangi.",
+            "instrukcja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
             "nazwa": "TGU",
             "img": "./assets/excercises/photos/tgu1.jpg",
-            "opis": "Wykonanie ćwiczenia wymaga skoordynowanej pracy mięśni całego ciała, przy czym najbardziej zaangażowane są mięśnie brzucha (zarówno proste jak i skosy), mięśnie nóg, mięśnie piersiowe oraz tricepsy."
+            "opis": "Wykonanie ćwiczenia wymaga skoordynowanej pracy mięśni całego ciała, przy czym najbardziej zaangażowane są mięśnie brzucha (zarówno proste jak i skosy), mięśnie nóg, mięśnie piersiowe oraz tricepsy.",
+            "instrukcja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         }
     ]
 }

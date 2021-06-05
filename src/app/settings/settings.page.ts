@@ -7,11 +7,16 @@ import {ModalController} from '@ionic/angular';
   styleUrls: ['./settings.page.scss'],
 })
 export class SettingsPage implements OnInit {
+  // results: any;
 
   constructor(private modalController:ModalController) { }
 
   ngOnInit() {
-  }
+  //   fetch('./assets/excercises/excercises.json').then(res => res.json()).then(json => {
+  //     console.log('results::',json);
+  //     this.results = json.excercises;
+  //   });
+   }
 
   CloseModal()
   {
